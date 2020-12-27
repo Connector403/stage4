@@ -10,12 +10,29 @@
 
   </head>
   <body>
-    <input type="number" id="lat" name="lat">
-    <input type="number" id="lng" name="lng">
 
-    <button type="button" id="buttonRun">  Nearby Places Name </button>
+    <label for="vol"> latidue (-90<span>&#176;</span> to 90<span>&#176;</span>)</label>
+    <input type="number"  class="lat" id="lat" name="vol" min="-90" max="90">
+
+    <label for="vol2"> longitude (0<span>&#176;</span> to 180<span>&#176;</span>)</label>
+    <input type="number"  class="lat" id="lng" name="vol2" min="0" max="180">
+
+
+
+    <button id="btnRun">Run</button>
     <br>
-    <div id="div1"> </div>
+    <p> Continent Code: <span id="continentCode"> </span></p>
+    <p> Distance: <span id="div1"></span> </p>
+    <p> country Name: <span id="countryName"> </span></p>
+    <p> country Code: <span id="countryCode"> </span></p>
+    <p> timezone : <span id="timezone"> </span> </p>
+    <p > fclName: <span id="fclName"> </span> </p>
+
+
+
+    <p id="fcodeName"> </p>
+    <p id="fclName"> </p>
+
 
 
 
